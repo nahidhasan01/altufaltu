@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif; */
+a,a:hover{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* **************
+banner section code start from here
+***************** */
+
+.background{
+    background: url('../img/background.png');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* **************
+banner section code end from here
+***************** */
+
+
+/* **************
+header section code start from here
+***************** */
+
+.upper-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    padding: 29px 0px;
+}
+
+.nav{
+    text-align: right;
+}
+
+.nav-menu ul li{
+    display: inline-block;
+    cursor: pointer;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 57px;
+    font-size: 20px;
+    padding: 20px 0px;
+}
+.nav-menu ul li a{
+    font-size: 24px;
+    color: #3d2514;
+}
+
+.u-contact span{
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 16px;
+    color: #3d2514;
+    font-weight: 600;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+.u-contact img{
+    vertical-align: middle;
+}
+.b-back{
+    display: flex;
+    justify-content: space-between;
+}
+
+.b-left p{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    font-weight: 300;
+    display: inline-block;
+    border: 3px dashed #3d2514;
+    padding: 8px 14px;
+    color:#3d2514;
+}
+
+.b-left h1{
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;  
+    font-size: 114px;
+    text-shadow: 4px 4px #e8e4e4;
+    letter-spacing: 3px;
+}
+
+.b-left h2{
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;  
+    font-size: 56px;
+    text-shadow: 4px 4px #e8e4e4;
+    letter-spacing: 3px;
+}
+
+.b-left{
+    flex-basis: 50%;
+    margin-top: 160px;
+}
+.b-right{
+    flex-basis: 50%;
+}
+
+.burger{
+    max-width: 100%;
+    height: auto;
+    position: relative;  
+}
+
+.price{
+    position: absolute;
+    bottom: 35px;
+    right: 685px;
+}
+/* **************
+header section code end from here
+***************** */
+/* **************
+body section code start from here
+***************** */
+.services{
+    padding: 70px 0px;
+}
+.serve-pro{
+    display: flex;
+}
+
+.serve-pro img{
+    max-width: 100%;
+    height: auto;
+}
+
+.serve-l,.serve-r{
+    flex-basis: 50%;
+}
+
+
+.serve-con{
+    margin: 15px;
+    position: relative;
+}
+.img-text{
+    position: absolute;
+    top: 29px;
+    left: 31px;
+}
+.img-text h2{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 36px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.img-text h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 400;
+    line-height: 39px;
+}
+
+.line-break{
+    width: 155px;
+    line-height: 32px;
+}
+
+.secend{
+    margin-bottom: 27px;
+}
+/* **************
+body section code end from here
+***************** */
+/* **************
+Gallery Section code start from here
+***************** */
+.burger-gallery{
+    width: 100%;
+    padding: 90px 0px;
+}
+
+.g-header{
+    text-align: center;
+}
+
+.g-header span{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    font-size: 25px;
+    color: #3d2514;
+    background:#ffc045;
+    padding: 8px 14px;
+    letter-spacing: 1px;
+}
+
+.g-header h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+    color: #3d2514;
+    padding: 30px 0px 20px 0px;
+    text-transform: uppercase;
+}
+
+.g-header p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #3d2514;
+    font-weight: 300;
+    margin: 0px 30px;
+}
+
+.gallery-body{
+    
+}
+.item{
+     text-align: center;
+}
+.item img{
+    max-width: 100%;
+    height: auto;
+}
+.item h3{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 37px;
+    color: #3d2514;
+    letter-spacing: 2px;
+}
+.item p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #3d2514;
+    font-weight: 300;
+    margin: 0px 366px;
+}
+.item button{
+    color: white;
+    border: none;
+    background: red;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 16px;
+    padding: 8px 14px;
+}
+/* **************
+Gallery section code start from here
+***************** */
